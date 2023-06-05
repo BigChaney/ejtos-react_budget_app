@@ -4,6 +4,7 @@ import { AppContext } from '../context/AppContext';
 const AllocationForm = (props) => {
     const { dispatch,remaining  } = useContext(AppContext);
 
+    //State variables
     const [name, setName] = useState('');
     const [cost, setCost] = useState('');
     const [action, setAction] = useState('');
